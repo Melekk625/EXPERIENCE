@@ -15,6 +15,9 @@ html {
     Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
     Segoe UI Symbol, Noto Color Emoji;
 }
+#clear .clear_box h2{
+  display: none;
+}
 #clear .img_box {
   margin: auto;
   max-width: 10rem;
@@ -40,6 +43,17 @@ html {
   text-transform: uppercase;
   padding-top: 1rem;
   text-decoration: none;
+}
+#clear .clear_box .button{
+  padding: 0.4rem 1.1rem;
+  font-size: 1.8rem;
+  border-radius: 8px;
+  border: 1px solid white;
+  background-color: #bd5d38;
+  color: white;
+  opacity: 0.4;
+  font-weight: 100;
+  display: none;
 }
 /* nav end! */
 
@@ -356,4 +370,115 @@ hr{
   height: 1em;
   margin: 0 0.2rem 0 1rem;
   color: #FFC107;
+}
+
+@media only screen and (max-width:600px){
+  #clear {
+    width: 100%;
+    height: 57px;
+  }
+  #clear .clear_box{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    border: 2px solid red;
+  }
+  #clear .clear_box h2{
+    display: block;
+  }
+  #clear .img_box {
+    display: none;
+  }
+  #clear .img_box img {
+    display: none;
+  }
+  #clear ul {
+    display: none;
+  }
+  #clear .clear_box .button{
+    display: block;
+  }
+  #container {
+    max-width: 100%;
+    height: 100vh;
+    margin-left: 0;
+    /* margin-left: 14.3%; */
+    border: 2px solid red;
+  }
+  #container .container_box {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    /* margin-left: 0; */
+    border: 2px solid red;
+  }
+  #container .container_box h1 {
+    font-size: 49px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-family: "Saira", sans-serif;
+    font-weight: 700;
+    color: #343a40;
+  }
+  #container .container_box h1 span {
+    color: #bd5d38;
+  }
+  #container .container_box h3 span {
+    color: #bd5d38;
+  }
+  #container .container_box p {
+    font-size: 18.4px;
+    font-weight: 400;
+    color: #6c757d;
+    margin-top: 3rem;
+    font-family: "Mulish", sans-serif;
+    line-height: 1.5;
+  }
+  #container .container_box h3 {
+    color: #6c757d;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-size: 1.5rem;
+  }
+  #container .container_box .icon i {
+    padding: 1rem;
+    border-radius: 50%;
+    color: white;
+    background-color: #495057;
+    margin: 2.5rem 1.3rem 1rem 0;
+  }
+  #experience {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  #education{
+    max-width: 100%;
+    height: 100vh;
+    margin-left: 0;
+    margin-top: 14rem;
+    padding: 2rem 0 5rem 0;
+  }
+  #skill{
+    max-width: 100%;
+    height: 100vh;
+    margin-left: 0;
+    padding: 2rem 0 5rem 0;
+  }
+  #interest{
+    max-width: 100%;
+    height: 100vh;
+    margin-left: 0;
+    padding: 0 0 8rem 0;
+  }
+  #award{
+    max-width: 100%;
+    height: 80vh;
+    margin-left: 0;
+  }
+  hr{
+    max-width: 90%;
+  }
 }
