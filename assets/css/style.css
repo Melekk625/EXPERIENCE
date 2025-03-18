@@ -4,7 +4,7 @@ html {
 /* nav start! */
 #clear {
   width: 14.3%;
-  height: 100%;
+  height: 100vh;
   background-color: #bd5d38;
   position: fixed;
   display: flex;
@@ -45,7 +45,7 @@ html {
 
 /* container section start! */
 #container {
-  width: 85.7%;
+  max-width: 85.7%;
   height: 100vh;
   margin-left: 14.3%;
 }
@@ -94,12 +94,14 @@ html {
   margin: 2.5rem 1.3rem 1rem 0;
 }
 /* container section end! */
+/* experience section start! */
 #experience {
-  border: px solid red;
-  width: 85.7%;
-  height: 100vh;
+  max-width: 85.7%;
+  height: 120vh;
   margin-left: 14.3%;
-  padding-left: 3.5rem;
+}
+#experience .boxes{
+   padding-left: 3.5rem;
 }
 #experience h2 {
   font-family: "Saira", sans-serif;
@@ -111,11 +113,11 @@ html {
   padding: 3.5rem 0 2rem 0;
 }
 #experience .experience_box {
-  width: 52%;
+  width: 70%;
   margin-top: 0.5rem;
 }
 #experience .senior {
-  width: 70%;
+  width: 92%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -151,4 +153,207 @@ html {
   font-weight: 400;
   line-height: 1.5;
   margin: 1rem 0;
+}
+/* experience section end! */
+/* education section start! */
+#education{
+  max-width: 85.7%;
+  height: 100vh;
+  margin-left: 14.3%;
+  margin-top: 14rem;
+  padding: 2rem 0 5rem 0;
+}
+#education .education_box{
+  padding-left: 3.5rem;
+  max-width: 100%;
+}
+#education .education_box h3{
+  font-family: "Saira", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #343a40;
+  font-size: 3.5rem;
+  padding: 3.5rem 0 2rem 0;
+}
+#education .education_box .university{
+  width: 92%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#education .education_box .university h4{
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "Saira", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #343a40;
+  margin-top: 2rem;
+}
+#education .education_box .university span{
+  color: rgb(189 93 56);
+  font-family: "Mulish", sans-serif;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  line-height: 1.5;
+}
+#education .education_box h5{
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-family: "Saira", sans-serif;
+  color: #6c757d;
+  line-height: 1.5;
+}
+#education .education_box .computer{
+  color: #6c757d;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 1rem 0 5rem 0;
+}
+hr{
+  margin-top: 2rem;
+}
+/* education section end! */
+
+/* section skill start! */
+#skill{
+  max-width: 85.7%;
+  height: 100vh;
+  margin-left: 14.3%;
+  padding: 2rem 0 5rem 0;
+}
+#skill .skill_box{
+  padding-left: 3.5rem;
+  max-width: 100%;
+}
+#skill .skill_box h2{
+  font-family: "Saira", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #343a40;
+  font-size: 3.5rem;
+  padding: 3.5rem 0 2rem 0;
+}
+#skill .skill_box p{
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #6c757d;
+  line-height: 1.5;
+}
+#skill .skill_box .icon{
+  width: 60%;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#skill .skill_box .icon svg{
+  height: 1em;
+  font-size: 3rem;
+  color: #6c757d;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+#skill .skill_box h4{
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #6c757d;
+  margin-bottom: 2rem;
+}
+#skill .skill_box .tick{
+  max-width: 90%;
+  color: #6C757D;
+  padding-left: 1rem;
+}
+#skill .skill_box .tick .box1{
+  display: flex;
+  padding: 0.3rem;
+}
+#skill .skill_box .tick .box1 svg{
+  height: 1em;
+  line-height: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-right: 0.5rem;
+}
+/* section skill end! */
+
+/* interest section start! */
+
+#interest{
+  max-width: 85.7%;
+  height: 80vh;
+  margin-left: 14.3%;
+  padding: 0 0 8rem 0;
+}
+#interest .interest_box{
+  padding-left: 3.5rem;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#interest .interest_box h3{
+  font-family: "Saira", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #343a40;
+  font-size: 3.5rem;
+  padding: 1rem 0 2rem 0;
+}
+#interest .interest_box p{
+  margin-bottom: 1rem;
+  color: #6c757d;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+/* interest section end! */
+/* section award start! */
+
+#award{
+  max-width: 85.7%;
+  height: 80vh;
+  margin-left: 14.3%;
+}
+#award .award_box{
+  padding-left: 3.5rem;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#award .award_box h4{
+  font-family: "Saira", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #343a40;
+  font-size: 3.5rem;
+  padding: 1rem 0 2rem 0;
+}
+#award .award_box .present{
+  width: 70%;
+  display: flex;
+  margin: 0.2rem 0;
+  justify-content: start;
+  align-items: center;
+}
+#award .award_box .present svg{
+  font-size: 1rem;
+  height: 1em;
+  margin: 0 0.2rem 0 1rem;
+  color: #FFC107;
 }
